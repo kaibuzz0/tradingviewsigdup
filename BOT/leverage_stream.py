@@ -1,14 +1,35 @@
 from pyrogram import Client, filters
-from config import spot_channel, leverage_channel
+import logging
+from config import SPOT_CHANNEL, LEVERAGE_CHANNEL
 
+logger = logging.getLogger(__name__)
 
-@Client.on_message(filters.chat([leverage_channel]))
-async def id_check(client, message):
-  """
-    Stream speicified leverage_channel
+@Client.on_message(filters.chat([LEVERAGE_CHANNEL]))
+async def leverage_handler(client, message):
     """
-  if '❌' not in message.text:
-    return
-  ticker = (message.text).split('\n')[0].split(':')[1]
-  restyle = f'CLOSE {ticker}'
-  await client.send_message(chat_id=spot_channel, text=restyle)
+    Listen to leverage channel for close signals (❌)
+    Forward close signal to spot channel
+    """
+    try:
+        if not message.text:
+            return
+            
+        if '❌' not in message.text:
+            return
+            
+        lines = message.text.split('\n')
+        if not lines or ':' not in lines[0]:
+            logger.warning(f"Invalid close message format: {message.text[:50]}")
+            return
+            
+        ticker = lines[0].split(':')[1].strip()
+        restyle = f'CLOSE {ticker}'
+        
+        await client.send_message(
+            chat_id=SPOT_CHANNEL,
+            text=restyle
+        )
+        logger.info(f"Close signal forwarded: {ticker}")
+        
+    except Exception as e:
+        logger.error(f"Error in leverage_handler: {e}")
