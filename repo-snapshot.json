@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-16T23:57:09Z",
+  "source_commit": "7b5f7f584f59f8c07289738f6037bc486ab9f649",
+  "repo": {
+    "id": "tradingviewsigdup",
+    "full_name": "kaibuzz0/tradingviewsigdup",
+    "url": "https://github.com/kaibuzz0/tradingviewsigdup",
+    "default_branch": "main"
+  },
+  "stats": {
+    "tracked_files": 13,
+    "python_files": 6,
+    "javascript_typescript_files": 0,
+    "workflow_files": 1,
+    "test_files": 0
+  },
+  "tools": [],
+  "toolsets": [],
+  "cases": [],
+  "opportunities": [],
+  "intelligence": [],
+  "sources": [],
+  "prompts": [],
+  "evidence": [],
+  "agent_ops": {},
+  "activity": [
+    {
+      "id": "7b5f7f584f59f8c07289738f6037bc486ab9f649",
+      "type": "commit",
+      "title": "Connect repository to GitHub Command Site",
+      "timestamp": "2026-08-16T18:56:58-05:00",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/7b5f7f584f59f8c07289738f6037bc486ab9f649"
+    },
+    {
+      "id": "b71fd3f3f16d6542c09c5297c55aa6e787496fd1",
+      "type": "commit",
+      "title": "Fix critical bugs + add interactive menu + multi-format support",
+      "timestamp": "2026-07-25T08:38:52Z",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/b71fd3f3f16d6542c09c5297c55aa6e787496fd1"
+    },
+    {
+      "id": "a3f459ee17d5095f97a1fca79fc92f553029102a",
+      "type": "commit",
+      "title": "Update notes.text",
+      "timestamp": "2023-01-02T15:26:00-08:00",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/a3f459ee17d5095f97a1fca79fc92f553029102a"
+    },
+    {
+      "id": "562f160eb7f13ab9181b2d2a757c5ae060d4516d",
+      "type": "commit",
+      "title": "Create notes.text",
+      "timestamp": "2023-01-02T15:23:33-08:00",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/562f160eb7f13ab9181b2d2a757c5ae060d4516d"
+    },
+    {
+      "id": "02a05f22493b51233b38b30d7ce935055514199d",
+      "type": "commit",
+      "title": "Update README.md",
+      "timestamp": "2023-01-02T14:29:10-08:00",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/02a05f22493b51233b38b30d7ce935055514199d"
+    },
+    {
+      "id": "2fb60d2f0c2a609539361ff01d5958bc22f4d782",
+      "type": "commit",
+      "title": "Add files via upload",
+      "timestamp": "2023-01-02T14:27:33-08:00",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/2fb60d2f0c2a609539361ff01d5958bc22f4d782"
+    },
+    {
+      "id": "db0fe32d6804cbb92145e0ef0a40b25e5644dbdf",
+      "type": "commit",
+      "title": "Initial commit",
+      "timestamp": "2023-01-02T14:26:44-08:00",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/db0fe32d6804cbb92145e0ef0a40b25e5644dbdf"
+    }
+  ],
+  "links": [
+    {
+      "id": "github",
+      "name": "GitHub repository",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup"
+    },
+    {
+      "id": "actions",
+      "name": "GitHub Actions",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/actions"
+    },
+    {
+      "id": "issues",
+      "name": "Issues",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/issues"
+    }
+  ]
+}
