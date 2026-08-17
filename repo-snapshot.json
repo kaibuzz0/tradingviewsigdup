@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T00:17:04Z",
-  "source_commit": "393fd9492f1f4b76e78c57ca25de11c92fbea9ee",
+  "generated_at": "2026-08-17T00:48:19Z",
+  "source_commit": "76815ab5c34ab9e83e0fa8af07eadfc80603cd29",
   "repo": {
     "id": "tradingviewsigdup",
     "full_name": "kaibuzz0/tradingviewsigdup",
@@ -9,14 +9,14 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 13,
+    "tracked_files": 14,
     "python_files": 6,
     "javascript_typescript_files": 0,
-    "workflow_files": 1,
+    "workflow_files": 2,
     "test_files": 0
   },
   "repository_tree": {
-    "total_files": 13,
+    "total_files": 14,
     "total_directories": 3,
     "files_truncated": false,
     "directories_truncated": false,
@@ -37,13 +37,13 @@
         "path": ".github",
         "name": ".github",
         "depth": 1,
-        "file_count": 1
+        "file_count": 2
       },
       {
         "path": ".github/workflows",
         "name": "workflows",
         "depth": 2,
-        "file_count": 1
+        "file_count": 2
       },
       {
         "path": "BOT",
@@ -57,6 +57,11 @@
         "path": ".env.example",
         "name": ".env.example",
         "extension": ".example"
+      },
+      {
+        "path": ".github/workflows/command-site-pages.yml",
+        "name": "command-site-pages.yml",
+        "extension": ".yml"
       },
       {
         "path": ".github/workflows/command-site-snapshot.yml",
@@ -130,6 +135,20 @@
   "evidence": [],
   "agent_ops": {},
   "activity": [
+    {
+      "id": "76815ab5c34ab9e83e0fa8af07eadfc80603cd29",
+      "type": "commit",
+      "title": "Merge pull request #1 from kaibuzz0/feature/command-site-pages",
+      "timestamp": "2026-08-16T19:48:12-05:00",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/76815ab5c34ab9e83e0fa8af07eadfc80603cd29"
+    },
+    {
+      "id": "5aa11c02c429d2e2b477110af2282655044bedef",
+      "type": "commit",
+      "title": "Site: add generated repository workspace",
+      "timestamp": "2026-08-16T19:47:58-05:00",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/5aa11c02c429d2e2b477110af2282655044bedef"
+    },
     {
       "id": "393fd9492f1f4b76e78c57ca25de11c92fbea9ee",
       "type": "commit",
