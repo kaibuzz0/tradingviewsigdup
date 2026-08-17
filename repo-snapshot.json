@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T00:48:19Z",
-  "source_commit": "76815ab5c34ab9e83e0fa8af07eadfc80603cd29",
+  "generated_at": "2026-08-17T01:01:17Z",
+  "source_commit": "32b74094155e7d2ab0421438b3186a2f9ea6c927",
   "repo": {
     "id": "tradingviewsigdup",
     "full_name": "kaibuzz0/tradingviewsigdup",
@@ -9,14 +9,14 @@
     "default_branch": "main"
   },
   "stats": {
-    "tracked_files": 14,
+    "tracked_files": 13,
     "python_files": 6,
     "javascript_typescript_files": 0,
-    "workflow_files": 2,
+    "workflow_files": 1,
     "test_files": 0
   },
   "repository_tree": {
-    "total_files": 14,
+    "total_files": 13,
     "total_directories": 3,
     "files_truncated": false,
     "directories_truncated": false,
@@ -37,13 +37,13 @@
         "path": ".github",
         "name": ".github",
         "depth": 1,
-        "file_count": 2
+        "file_count": 1
       },
       {
         "path": ".github/workflows",
         "name": "workflows",
         "depth": 2,
-        "file_count": 2
+        "file_count": 1
       },
       {
         "path": "BOT",
@@ -57,11 +57,6 @@
         "path": ".env.example",
         "name": ".env.example",
         "extension": ".example"
-      },
-      {
-        "path": ".github/workflows/command-site-pages.yml",
-        "name": "command-site-pages.yml",
-        "extension": ".yml"
       },
       {
         "path": ".github/workflows/command-site-snapshot.yml",
@@ -136,6 +131,20 @@
   "agent_ops": {},
   "activity": [
     {
+      "id": "32b74094155e7d2ab0421438b3186a2f9ea6c927",
+      "type": "commit",
+      "title": "Merge pull request #2 from kaibuzz0/cleanup/remove-repo-pages-pilot",
+      "timestamp": "2026-08-16T20:01:08-05:00",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/32b74094155e7d2ab0421438b3186a2f9ea6c927"
+    },
+    {
+      "id": "8c5ff0b968a5d7118e6e8bf2fd9e1b81f06aae3e",
+      "type": "commit",
+      "title": "Cleanup: remove per-repo Pages pilot",
+      "timestamp": "2026-08-16T20:00:41-05:00",
+      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/8c5ff0b968a5d7118e6e8bf2fd9e1b81f06aae3e"
+    },
+    {
       "id": "76815ab5c34ab9e83e0fa8af07eadfc80603cd29",
       "type": "commit",
       "title": "Merge pull request #1 from kaibuzz0/feature/command-site-pages",
@@ -190,20 +199,6 @@
       "title": "Update README.md",
       "timestamp": "2023-01-02T14:29:10-08:00",
       "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/02a05f22493b51233b38b30d7ce935055514199d"
-    },
-    {
-      "id": "2fb60d2f0c2a609539361ff01d5958bc22f4d782",
-      "type": "commit",
-      "title": "Add files via upload",
-      "timestamp": "2023-01-02T14:27:33-08:00",
-      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/2fb60d2f0c2a609539361ff01d5958bc22f4d782"
-    },
-    {
-      "id": "db0fe32d6804cbb92145e0ef0a40b25e5644dbdf",
-      "type": "commit",
-      "title": "Initial commit",
-      "timestamp": "2023-01-02T14:26:44-08:00",
-      "url": "https://github.com/kaibuzz0/tradingviewsigdup/commit/db0fe32d6804cbb92145e0ef0a40b25e5644dbdf"
     }
   ],
   "links": [
